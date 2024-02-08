@@ -19,17 +19,25 @@ h1 {
     text-align: center;
 }
 
-div {
-    display: flex;
-    justify-content: space-between;
-    width: 40%;
-    margin: 5px;
-}
-
 p {
     text-align: center;
     width: 50%;
     line-height: 25px;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin: 5px;
+}
+
+select {
+    border-radius: 5px;
+    text-align: center;
+    padding: 1%;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 button {
@@ -42,8 +50,4 @@ button {
     background-color: blueviolet;
     font-weight: 600;
     letter-spacing: 0.75px;
-}
-
-select {
-
 }
