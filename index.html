@@ -10,36 +10,38 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
         rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7a833399cb.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <main>
-        <h1>Damoire Logo</h1>
+        <div class="hero"><img src="damoirelogo.webp"></div>
         <h1>Body Type Calculator</h1>
         <p>Hello everyone, I've created this simple calculator so you can work out what body type you are. All you need
-            is a measuring tape. Enter the values below and then click calculate.</p>
-        <div>
+            is a measuring tape.</p> 
+        <p>Enter the values below and then click calculate.</p>
+        <div class="measurements">
             <label for="bust">Bust (cm) :</label>
             <select id="bust">
                 <option selected>Choose...</option>
                 <!-- JS inputs options here -->
             </select>
         </div>
-        <div>
+        <div class="measurements">
             <label for="waist">Waist (cm) :</label>
             <select id="waist">
                 <option selected>Choose...</option>
                 <!-- JS inputs options here -->
             </select>
         </div>
-        <div>
+        <div class="measurements">
             <label for="hip">Hip (cm) :</label>
             <select id="hip">
                 <option selected>Choose...</option>
                 <!-- JS inputs options here -->
             </select>
         </div>
-        <div>
+        <div class="measurements">
             <label for="high-hip">High Hip (cm) :</label>
             <select id="high-hip">
                 <option selected>Choose...</option>
@@ -49,6 +51,12 @@
         <button id="calculate">Calculate</button>
         <p id="result"></p>
     </main>
+    <footer>
+        <a href="https://www.pinterest.com/damoire/" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+        <a href="https://www.youtube.com/channel/UCQtUxHq4gb2zHP4Cs7OzDoQ" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.tiktok.com/@damoire_sews" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="https://www.instagram.com/damoire_sews/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    </footer>
 </body>
 <script src="script.js"></script>
 
